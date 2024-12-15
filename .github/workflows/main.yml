@@ -2,7 +2,7 @@ name: Check RSS and Notify
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # 每 1 分钟运行一次
+    - cron: '*/1080 * * * *'  # 每 1080 分钟运行一次
   workflow_dispatch:  # 支持手动触发
 
 jobs:
