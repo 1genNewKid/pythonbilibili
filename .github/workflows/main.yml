@@ -24,4 +24,4 @@ jobs:
 
       - name: Run RSS Check script
         run: |
-         js.py  # 运行您的 Python 脚本
+         python js.py  # 运行您的 Python 脚本
