@@ -22,6 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser plyer
 
-      - name: Run RSS Check script
+      - name: Run Python script
         run: |
-         python js.py  # 运行您的 Python 脚本
+          python js.py  # 使用 python 命令来运行脚本
