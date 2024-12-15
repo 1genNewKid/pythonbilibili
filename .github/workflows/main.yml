@@ -24,4 +24,4 @@ jobs:
 
       - name: Run RSS Check script
         run: |
-          python from selenium import webdriver.py  # 运行您的 Python 脚本
+         js.py  # 运行您的 Python 脚本
